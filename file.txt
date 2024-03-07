@@ -1,0 +1,3 @@
+https://jsonplaceholder.typicode.com/posts/1/comments,https://jsonplaceholder/abCdE
+https://global.wildberries.ru/product?card=85946769&option=140182946,https://global/abCdE
+https://jsonplaceholder.typicode.com/posts/1/comments,https://jsonplaceholder/BFmaqmxdcN

@@ -1,0 +1,15 @@
+#RewriteEngine On
+#RewriteBase /
+#
+#RewriteCond %{REQUEST_URI} !^/handler\.php$
+#RewriteRule (.+) index.php?get=$1
+
+RewriteEngine On
+RewriteBase /
+
+# Игнорировать запросы к handler.php и index.php
+RewriteCond %{REQUEST_URI} !^/handler\.php$
+RewriteCond %{REQUEST_URI} !^/index\.php$
+
+# Перенаправление всех остальных запросов на index.php с параметром get
+RewriteRule ^(.+)$ index.php?get=$1 [L,QSA]
